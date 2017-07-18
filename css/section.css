@@ -1,0 +1,217 @@
+section.sec1 {
+    background-image: url(gcss/tatanstrip.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: white;
+    position: relative;
+    border: 2px solid #3346c3;
+    border-radius: 25px 25px 25px 25px ;
+    margin-bottom: 40px;
+    padding: 20px;
+    padding-bottom: 50px;
+    width: 90%;
+    top: 560px;
+    left: 10px;
+    overflow: auto;
+    z-index: 0;
+}
+
+section h1 {
+    font-size: 2.25em;
+    margin: 10px;
+    margin-left: 70px;
+}
+
+section > p {
+    margin-top: 50px;
+    margin-left: 90px;
+    line-height: 120%;
+}
+
+section > p.pg2 {
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+section a:link, section a:visited {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f10b0b;
+    border: 1px none black;
+    padding: 7px 15px;
+}
+
+section a:hover {
+    background-color: #a50808;
+}
+
+section.sec1 div.dg1 {
+    margin-left: 50px;
+}
+
+section.sec1 div {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #31b44f;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 15px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    float: left;
+    border: 2px solid #dfdfdf;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #dfdfdf;
+    width: 100px;
+}
+
+section.sec1 div:hover {
+    background-color: white;
+    border: 2px solid #31b44f;
+}
+
+
+/* Section 2 */
+
+section.sec2 {
+    background-image: url(gcss/tatanstrip.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: white;
+    position: relative;
+    border: 2px solid #3346c3;
+    border-radius: 25px 25px 25px 25px ;
+    margin-bottom: 40px;
+    padding: 20px;
+    padding-bottom: 50px;
+    width: 90%;
+    top: 560px;
+    left: 10px;
+    overflow: auto;
+    z-index: 0;
+}
+
+section.sec2 div.dg2 {
+    position: relative;
+    top: 10px;
+    margin-left: 0px;
+    margin-right: 10%;
+    left: 18%;
+    border: 3px none blue;
+    display: inline-block;
+}
+
+section.sec2 div.dg2a {
+    text-align: center;
+    width: 200px;
+    margin-right: 55px;
+    border: 1px none black;
+    float: left;
+}
+
+span.secsp1 {
+    color: #4340ab;
+    font-weight: bold;
+}
+
+div.secsp2 {
+    background-color: #4340ab;
+    position: relative;
+    left: 8px;
+    margin-top: 10px;
+    width: 180px;
+    color: white;
+    border: 2px solid #4340ab;
+    border-radius: 12px;
+    padding: 5px 0px;
+}
+
+section img.gimg {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: 1px none black;
+    border-radius: 24px;
+}
+
+section img.gimg2 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border: 1px none black;
+    border-radius: 24px;
+    z-index: 1;
+}
+
+p.secp1 {
+    color: #4340ab;
+    font-weight: bold;
+}
+
+[class~="dg3"] {
+    position: relative;
+    display: inline-block;
+    width: 850px;
+    height: 130px;
+    border: 2px none black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+[class~="dg3a"] {
+    float: left;
+    border: 3px none #31b44f;
+    border-radius: 25px;
+    border-left-style: solid;
+    border-right-style: solid;
+    margin-left: 10px;
+    max-width: 500px;
+    padding: 13px 20px;
+}
+
+[class~="dg4"] {
+    position: relative;
+    border: 1px none blue;
+    padding: 5px;
+    margin-left: 80px;
+}
+
+[class~="dgnumber"] {
+    float: left;
+    background-color: #4340ab;
+    color: white;
+    border: 2px solid #4340ab;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+[class~="dg5"] {
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    background: rgba(255,255,255,0.6);
+    border: 2px solid #4340ab;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px 25px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    z-index: 1; 
+}
+
+#dg4-id {
+    background-image: url("gcss/background_fitur.png");
+    background-repeat: no-repeat;
+    border: 2px solid #4340ab;
+    border-radius: 25px;
+    width: 90%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
